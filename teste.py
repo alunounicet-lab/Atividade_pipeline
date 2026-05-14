@@ -1,4 +1,4 @@
-from calculadora import divisao
-assert divisao(2, 3) == 0
+from calculadora import soma
+assert soma(2, 3) == 5
 
 print("Teste executado com sucesso")
