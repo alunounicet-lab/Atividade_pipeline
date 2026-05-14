@@ -1,3 +1,3 @@
-def soma(a, b):
-    return a + b
-    print(soma(2, 3))
+def div(10/2):
+    return 10 / 2
+    print(div(10/2))
