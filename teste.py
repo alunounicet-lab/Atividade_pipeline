@@ -1,4 +1,4 @@
-from app import soma
+from calculadora import soma
+assert soma(2, 3) == 5
 
-def test_soma():
-    assert soma(2, 3) == 5
+print("Teste executado com sucesso")
