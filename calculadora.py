@@ -1,7 +1,6 @@
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
-nota3 = float(input("Digite a terceira nota: "))
+def soma(a, b):
+    return a + b
 
-media = (nota1 + nota2 + nota3) / 3
-
-print(f"A média é: {media:.2f}")
+if __name__ == "__main__":
+    resultado = soma(2, 3)
+    print(f"Resultado da soma: {resultado}")
